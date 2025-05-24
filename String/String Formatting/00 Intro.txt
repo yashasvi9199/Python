@@ -1,0 +1,8 @@
+How to Format Strings in Python
+There are five different ways to perform string formatting in Python
+
+Formatting with % Operator.
+Formatting with format() string method.
+Formatting with string literals, called f-strings.
+Formatting with String Template Class
+Formatting with center() string method.
