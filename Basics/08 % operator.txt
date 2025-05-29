@@ -1,0 +1,7 @@
+%s - String datatype
+%r - raw datatype
+%d - Integer datatype <need prior declaration using typecasting int()>
+%f - Float datatype <need prior declaration using typecasting int()/ float()>
+%c - char  datatype <need prior declaration using typecasting int()/ or char data in '<single char>'>
+%x - Hexadecimal datatype
+%o - Octal datatype
