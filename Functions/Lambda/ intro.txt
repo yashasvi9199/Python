@@ -1,0 +1,8 @@
+SYNTAX 
+<function name> = <Lambda keyword> <arg> : <expression>
+
+
+1. Lambda is also known as anonymous function in python
+2. Small functions
+3. One time use only
+4. No return keyword
