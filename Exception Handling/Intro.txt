@@ -1,0 +1,28 @@
+## Syntax
+try : 
+    <code that may raise exception>
+except <SomeException> :
+    code to handle exception
+else : 
+    code to run if no exception occurs
+finally:
+    code to run regardless of exception or errors
+
+
+## Types of exceptions
+
+1. Exception : base class for all non-exit errors
+2. ArithmeticError: base class for all maths errors
+3. ZeroDivisionError : if something is divided by 0
+4. OverflowError : when value exceeds datatype value
+5. AsserionError : when 'assert' statement fails
+6. AttributeError : when attribute assignment or assertion fails
+7. FloatingPointError : when operation on Float datatype fails
+8. IndexError : index out of bound
+9. KeyError : same as above but for Dictionary's key
+10. MemoryError : memory ran out. Memory full
+11. NameError : name of var not found (local or global)
+12. OSError : OS related ops failed ( like file I/O)
+13. TypeError : datytype mismatch error
+14. ValueError : Type is correct but data is incorrect
+15. ImportError : incorrect import/ or issues
