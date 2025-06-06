@@ -17,17 +17,11 @@ def siCal(amt, year, rate):
     #!     print("Interest Rate is out of range", rate)
 
 
-print("Case 1")
+print("Case Proper Value")
 siCal(10000, 10, 12)
 
-print("Case 2")
+print("Case Negative Value")
 siCal(-10000, 10, 12)
 
-print("Case 3")
-siCal(10000, -10, 12)
-
-print("Case 4")
-siCal(10000, 10, -12)
-
-print("Case 5")
+print("Case Value out of range")
 siCal(10000, 10, 120)
