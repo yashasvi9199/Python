@@ -205,7 +205,7 @@ def checkQuit(index):
 
                 print(f"a. {quest[index]['a']}      b. {quest[index]['b']}")
                 print(f"c. {quest[index]['c']}      d. {quest[index]['d']}")
-                
+
                 return True  # * Continue the game and print options
                 # break     Not needed due to return statement
             case "n":
@@ -287,7 +287,7 @@ def printGreeting(index):
 
 
 # welcome()
-for index in range(12, 13):
+for index in range(0, 15):
 
     printGreeting(index)
 
