@@ -142,12 +142,14 @@ amount = [
 
 level = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-Name = "Yash"
+Name = None
+first_run = True
 
 
 # * Greeting
 def welcome():
     while True:
+        global Name
         Name = input("Enter your name: ")
         Name = Name.capitalize()
         print(
@@ -250,7 +252,7 @@ def printQuestion(index):
     # ? If the guest is not at level 5, he cannot willingly quit.
     if level[index] > 5:
 
-        first_run = True
+        global first_run
         while True:
             print()  # * Indentation for ease in printing strings
             
@@ -286,9 +288,9 @@ def printGreeting(index):
     print(f"{Name} ji, Here is Q{level[index]} for an amount of Rs.{amount[index]}")
 
 
-# welcome()
+welcome()
 for index in range(0, 15):
-
+    print()
     printGreeting(index)
 
     # * Checking Quit/ Response of guest and Printing question and options
