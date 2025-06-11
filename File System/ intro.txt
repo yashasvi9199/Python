@@ -1,0 +1,40 @@
+To perform action, we need to open the file first.
+
+Function -> open()
+Syntax =>> open("<filename>.<extension>" , <mode><type>)
+filename.extension - the file name with extension , with path
+mode - action to be performed on file
+type - text or binary   (t/b)
+
+
+Available modes : 
+"r" = read only | Error if file exists
+"w" = write/overwrite only | Creates file if doesn't exists
+"a" = append only | Creates file if doesn't exists
+"x" = create new file | Error if file exists
+
+Advanced modes : 
+"rb" = Read Only in Binary mode                         | Error
+"r+" = Read and Write mode                              | Error
+"rb+"= Read and Write in binary mode                    | Error
+
+"wb" = Write in Binary mode                             | Create
+"w+" = Write and Read mode                              | Create
+"wb+"= Write and Read in binary mode                    | Create
+
+"ab" = Append in Binary mode                            | Create
+"a+" = Append and Read mode                             | Create
+"ab+"= Append and Read in binary mode                   | Create
+
+"xb" = Creation in binary mode                          | Error
+"x+" = Creation with Read and Write mode                | Error
+"xb+"= Creation with Read and Write mode in binary      | Error
+
+Available types : 
+"t" - Text | Default | Text mode
+"b" - Binary | Binary mode | Eg: Images
+
+Reading file -> <file>.read()
+Write file -> <file>.write()
+Close File -> <file>.close()
+Remove file -> os.remove("<file with path>)     | Make sure to 'import os' for <this>
