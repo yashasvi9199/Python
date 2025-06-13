@@ -1,0 +1,5 @@
+
+    Rule-1: Class names should follow the UpperCaseCamelCase convention
+    Rule-2: Exception classes should end in “Error“.
+    Rule-3: If a class is callable (Calling the class from somewhere), in that case, we can give a class name like a function.
+    Rule-4: Python’s built-in classes are typically lowercase words
