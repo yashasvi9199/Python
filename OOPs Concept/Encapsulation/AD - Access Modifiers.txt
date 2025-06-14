@@ -1,0 +1,10 @@
+There are three types of access modifiers in Python
+
+- Public Member (Accessible anywhere from outside the class)
+- Private Member (Accessible within class)
+- Protected Member (Accessible within class and sub class)
+
+Syntax ==>
+self.name = name            # Public Member
+self._project = project     # Protected Member
+self.__salary = salary      # Private Member
